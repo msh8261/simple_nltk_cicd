@@ -7,7 +7,7 @@ nltk.data.path.append("/tmp")
 
 nltk.download('tagsets', download_dir="/tmp")
 nltk.download('stopwords', download_dir="/tmp")
-# nltk.data.path.append("/nltk_data")
+
 
 wpt = nltk.WordPunctTokenizer()
 stop_words = nltk.corpus.stopwords.words('english')
