@@ -29,8 +29,8 @@ functions:
     handler: handler.lambda_handler
     events:
       - http:
-          path: joke
-          method: get
+          path: nltk
+          method: post
 
 plugins:
   - serverless-python-requirements
