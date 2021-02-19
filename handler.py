@@ -3,8 +3,11 @@ import json
 import numpy as np
 import re
 
-nltk.download('tagsets', download_dir='/home/sbx_user1051/nltk_data/')
-nltk.download('stopwords', download_dir='/home/sbx_user1051/nltk_data/')
+nltk.data.path.append("/tmp") 
+
+nltk.download('tagsets', download_dir="/tmp")
+nltk.download('stopwords', download_dir="/tmp")
+# nltk.data.path.append("/nltk_data")
 
 wpt = nltk.WordPunctTokenizer()
 stop_words = nltk.corpus.stopwords.words('english')
