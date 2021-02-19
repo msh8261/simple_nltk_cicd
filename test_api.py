@@ -14,7 +14,7 @@ input_data =  {"body": ['The sky is blue and beautiful.',
         }
 
 
-url = "https://q0cl1wwzb7.execute-api.us-east-2.amazonaws.com/dev/nltk"
+url = "https://y5umgtbrt0.execute-api.us-east-2.amazonaws.com/dev/nltk"
 
 r = requests.post(url, json=input_data)
 print("result without securely key: ", r.json())
