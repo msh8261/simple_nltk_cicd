@@ -5,6 +5,7 @@ import re
 
 nltk.download('tagsets', download_dir='/home/sbx_user1051/nltk_data/')
 nltk.download('stopwords', download_dir='/home/sbx_user1051/nltk_data/')
+
 wpt = nltk.WordPunctTokenizer()
 stop_words = nltk.corpus.stopwords.words('english')
 
