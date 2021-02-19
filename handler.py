@@ -4,6 +4,7 @@ import numpy as np
 import re
 
 nltk.download('tagsets')
+nltk.download('stopwords')
 wpt = nltk.WordPunctTokenizer()
 stop_words = nltk.corpus.stopwords.words('english')
 
