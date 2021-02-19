@@ -29,6 +29,7 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': 200,
+        'message': 'Hi there (@ @)'
         'body': json.dumps(norm_corpus.tolist())
     }
 
