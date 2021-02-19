@@ -3,7 +3,7 @@ import json
 import numpy as np
 import re
 
-nltk.download()
+nltk.download('tagsets')
 wpt = nltk.WordPunctTokenizer()
 stop_words = nltk.corpus.stopwords.words('english')
 
