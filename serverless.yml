@@ -6,6 +6,7 @@ provider:
   timeout: 60
   memorySize: 256
   layers:
+    - arn:aws:lambda:us-east-2:770693421928:layer:Klayers-python38-numpy:15
     - arn:aws:lambda:us-east-2:770693421928:layer:Klayers-python38-nltk:28
 
 custom:
