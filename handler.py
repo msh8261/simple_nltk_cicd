@@ -1,3 +1,9 @@
+try:
+    import unzip_requirements
+except ImportError:
+    pass
+
+
 import nltk
 import json
 import numpy as np
