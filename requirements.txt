@@ -6,3 +6,4 @@ numpy==1.20.1
 regex==2020.11.13
 tqdm==4.56.2
 wincertstore==0.2
+pytest
